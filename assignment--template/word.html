@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vite App</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+	<div class="mx-5">
+<div id="app"></div>
+	<script type="module" src="/main.js"></script>
+
+    
+	<section class="menu">
+		<div class="max-w-4xl  mx-auto px-5">
+
+			<ul  id="main-menu" class="hidden md:flex justify-end  space-x-8 font-bold text-sm ">
+				<li><a href="word.html" class="text-red-600" >Works</a></li>
+				<li><a href="blog.html"  >Blog</a></li>
+				<li><a href="contact.html" >Contact</a></li>
+			</ul>
+			<div class="flex justify-end">
+				<button id="button"  class="inline-block md:hidden font-bold text-4xl "><i class="fa-solid fa-bars"></i></button>
+			</div>
+		</div>
+	</section>
+	<!-- end menu -->
+	
+
+	<section class="max-w-4xl mx-auto ">
+		<p class="text-5xl font-bold mt-20 mb-8 ">Works</p>
+		<div class="grid md:grid-cols-[246px,auto] gap-8 border-b py-5 ">
+			<a class=""><img src="../img/1.jpg" alt=""></a>
+			<div>
+				<p class="text-2xl font-bold"><a href="">Designing Dashboards</a></p>
+				<p class="mt-8"> <span
+						class=" border bg-blue-800 rounded-3xl text-white text-xl font-bold border-blue-800 px-2 ">2020</span>
+					<span class=" ml-8 text-xl text-gray-400 font-bold">Dashboard</span>
+				</p>
+				<p class=" mt-8 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					Velit
+					officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+			</div>
+		</div>
+		<div class="grid md:grid-cols-[246px,auto] gap-8 border-b py-5">
+			<a>
+				<img src="../img/2.jpg" alt="">
+			</a>
+			<div>
+				<p class="text-2xl font-bold"><a href="">Vibrant Portraits of 2020</a></p>
+				<p class="mt-8"> <span
+						class=" border bg-blue-800 rounded-3xl text-white text-xl font-bold border-blue-800 px-2 ">2018</span>
+					<span class=" ml-8 text-xl text-gray-400 font-bold">Illustration</span>
+				</p>
+				<p class=" mt-8 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					Velit
+					officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+			</div>
+		</div>
+		<div class="grid md:grid-cols-[246px,auto] gap-8 border-b py-5">
+			<div>
+				<img src="../img/3.jpg" alt="">
+			</div>
+			<div>
+				<p class="text-2xl font-bold"><a href="">36 Days of Malayalam type</a></p>
+				<p class="mt-8"> <span
+						class=" border bg-blue-800 rounded-3xl text-white text-xl font-bold border-blue-800 px-2 ">2018</span>
+					<span class=" ml-8 text-xl text-gray-400 font-bold">Typography</span>
+				</p>
+				<p class=" mt-8 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					Velit
+					officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+			</div>
+		</div>
+        <div class="grid md:grid-cols-[246px,auto] gap-8 border-b py-5">
+			<div>
+				<img src="../img/7.jpg" alt="">
+			</div>
+			<div>
+				<p class="text-2xl font-bold"><a href="">Components</a></p>
+				<p class="mt-8"> <span
+						class=" border bg-blue-800 rounded-3xl text-white text-xl font-bold border-blue-800 px-2 ">2018</span>
+					<span class=" ml-8 text-xl text-gray-400 font-bold">Components, Design</span>
+				</p>
+				<p class=" mt-8 font-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					Velit
+					officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- end img  -->
+
+	<footer class="footer py-32">
+		<div class="max-w-4xl mx-auto px-5">
+			<div class=" flex  justify-center">
+				<a href=""><i class="fa-brands fa-facebook-square text-5xl mr-8 "></i></a>
+				<a href=""><i class="fa-brands fa-instagram text-5xl mr-8 "></i></a>
+				<a href=""><i class="fa-brands fa-twitter text-5xl mr-8 "></i></a>
+				<a href=""><i class="fa-brands fa-linkedin text-5xl"></i></a>
+	
+			</div>
+			<div class="text-center mt-8 text-sm"><a href="">
+					<p>Copyright ©2020 All rights reserved</p>
+				</a></div>
+		</div>
+	</footer>
+	</div>
+	
+</body>
+
+</html>
